@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "firstName": "Sandeep",
+      "lastName": "G",
+      "email": "sandy@gmail.com",
+      "dob": "1994-04-12T18:30:00.000Z",
+      "gender": "male",
+      "education": "Post Graduate",
+      "company": "Microsoft",
+      "experience": 1,
+      "package": 15,
+      "id": 2
+    },
+    {
+      "firstName": "Teja",
+      "lastName": "D",
+      "email": "teja67@gmail.com",
+      "dob": "1994-08-23T18:30:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "Facebook",
+      "experience": 5,
+      "package": 20,
+      "id": 3
+    },
+    {
+      "firstName": "Sudhakar",
+      "lastName": "G",
+      "email": "gmk55@gmail.com",
+      "dob": "1994-02-11T18:30:00.000Z",
+      "gender": "male",
+      "education": "Graduate",
+      "company": "Value Momentum",
+      "experience": 1,
+      "package": 4,
+      "id": 4
+    }
+  ]
+}

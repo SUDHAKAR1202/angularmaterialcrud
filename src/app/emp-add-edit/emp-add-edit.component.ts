@@ -15,6 +15,16 @@ export class EmpAddEditComponent implements OnInit {
   premiumCollegeControl = new FormControl();
   optionsControl = new FormControl();
 
+  saveData() {
+    let data = [{id:1, firstName:'G',lastName:'Sudhakar',email:'sudhakargmk12@gmail.com',dob:'1994-02-12',gender:'male',education:'Graduate',company:'Value Momentum',experience:'1',package:'6'},
+    {id:2, firstName:'G',lastName:'Sandeep',email:'sandy78@gmail.com',dob:'1994-07-08',gender:'male',education:'Graduate',company:'TCS',experience:'2',package:'7'},
+    {id:3, firstName:'D',lastName:'Teja',email:'teja15@gmail.com',dob:'1994-08-04',gender:'male',education:'Graduate',company:'Wipro',experience:'2',package:'10'},
+    {id:4, firstName:'K',lastName:'Seshu',email:'seshu7@gmail.com',dob:'1994-08-17',gender:'male',education:'Graduate',company:'Lowes',experience:'2',package:'6'}
+  ];
+
+    localStorage.setItem('session', JSON.stringify(data));
+  }
+
   education: string[] = [
     'Metric' ,
     'Diploma',
